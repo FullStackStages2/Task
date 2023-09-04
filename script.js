@@ -4,10 +4,9 @@
  const repositories = document . getElementById ( 'repositories' ) ; 
  
  
- searchInput. addEventListener ( 'keydown' , function ( event ) { //'Enter keydown' 
- if ( event . key === 'Enter ' ) { 
- const searchTerm = searchInput . value ; //Look at the snow-covered woods 
- searchButton . click ( ) ; //Enter the woodpipes./ 
+ searchInput. addEventListener ( 'keydown' , function ( event ) { 
+ const searchTerm = searchInput . value ;
+ searchButton . click ( ) ; 
  } } 
  } ) ; 
  
@@ -30,15 +29,15 @@
  
  // Update profile section 
  profile. innerHTML = ` 
- < h2 > $ { userData . login }  
+ < h2 > $ { userData . login } 
  ${ userData . avatar_url } " alt=" ${ userData . login } " width="100"> 
  
 Followers: ${ userData. followers } 
-
+ 
  
  
 Following : ${ userData . following } 
-
+ 
  
  ` ; 
  
@@ -55,7 +54,7 @@ Repositories:
  
  
  ${ repo. description } 
-
+ 
  
  
  
@@ -73,10 +72,10 @@ Repositories:
  //syntactic sugar active sugar construct) class <- prototype 
  //async: asynchronous (sync) 
  
-
-
+ 
+ 
  //await 키워드는 다워 줄로 넘어가기 전에 응답이 수신될. 
-
+ 
  
  
  
