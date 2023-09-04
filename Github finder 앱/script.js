@@ -59,9 +59,9 @@ searchButton.addEventListener('click', async () => {
 //async: 오래 걸리는 일 (비동기 처리)
 
 //await: 'async' 붙은 함수내에서만 사용.
-//코드는 'fetch' 함수를 사용하여 특정 사용자에 대한 GitHub API 엔드포인트에 GET 요청을 보내는 것으로 시작됩니다. 실제 GitHub 사용자 이름을 대체하기 위해 URL의 ${username} 자리 표시자를 사용합니다.
-//await 키워드는 다음 줄로 넘어가기 전에 응답이 수신될 때까지 기다리는 데 사용됩니다.
-//API의 응답은 json() 메소드를 사용하여 JSON 형식으로 변환되고 결과 데이터는 userData 변수에 저장됩니다.
+//코드는 'fetch' 함수를 사용하여 특정 사용자에 대한 GitHub API 엔드포인트에 GET 요청을 보내는 것으로 시작. 실제 GitHub 사용자 이름을 대체하기 위해 URL의 ${username} 자리 표시자를 사용.
+//await 키워드는 다음 줄로 넘어가기 전에 응답이 수신될 때까지 기다리는 데 사용됨.
+//API의 응답은 json() 메소드를 사용하여 JSON 형식으로 변환되고 결과 데이터는 userData 변수에 저장됨.
 
 
 
